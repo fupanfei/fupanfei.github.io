@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404-案例</title>
+    <!-- 页面时间：2022年1月2日01:02:391 -->
+    <!-- 写完时间：2022年1月2日02:05:40 -->
+    <!-- 白天在校内兼职没时间写晚上写 -->
+    <!-- link  类型：icon为：网站小图标继续引用QQ头像接口 -->
+    <link rel="shortcut icon" href="http://q1.qlogo.cn/g?b=qq&nk=2723147094&s=640">
+    <!-- link  引用外链类型css   -->
+    <link rel="stylesheet" type="text/css" href="css/index.css" />
+
+</head>
+<!-- 行内式css背景色为白色 -->
+
+<body style="background-color: white;">
+    <!-- 创建一个大盒子div -->
+    <div class="notice_page">
+        <!-- 创建一个404p的盒子 -->
+        <div class="notice_404_p"></div>
+        <!-- 创建一个home页面的盒子 -->
+    </br>
+        <!-- 行内式标签 align设置对齐方式不常用，没学css的时候常用这个居中 -->
+        <h1 align="center">未找到页面 - 404</h1>
+    </br>
+    <!-- 利用两个br换行标签来调整布局。 -->
+        <div class="home_page">
+        <!-- javascript:history.go(-1);这个表示 返回上一页 -->
+        <!-- 当然方法还有好多
+        方法一：
+        window.location.href=document.referrer;
+        方法二：
+        <a href="javascript:history.go(-1);">后退</a>
+        <a href="javascript:history.go(1);">前进</a>
+        history.go(X); X数字 0刷新当前页，1前进（带缓存）
+        -1后退一页（带缓存），-2后退两页（带缓存）；
+        history.back(X);同上；
+        self.location=document.referrer;返回上一页并刷新；-->
+            <a class="notice_retun" href="javascript:history.go(-1);">返回上一页</a>
+            <a class="notice_home" href="https://www.fpfwn.shop/">返回首页</a>
+        </div>
+    </div>
+</body>
+
+</html>
