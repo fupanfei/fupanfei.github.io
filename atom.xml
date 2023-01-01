@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>飞飞哥の博客</title>
+  
+  <subtitle>2023新的开始记录点点滴滴</subtitle>
+  <link href="https://feifeige.top/atom.xml" rel="self"/>
+  
+  <link href="https://feifeige.top/"/>
+  <updated>2022-12-31T14:41:20.544Z</updated>
+  <id>https://feifeige.top/</id>
+  
+  <author>
+    <name>飞飞哥</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="https://feifeige.top/2022/12/31/hello-world/"/>
+    <id>https://feifeige.top/2022/12/31/hello-world/</id>
+    <published>2022-12-31T14:42:21.525Z</published>
+    <updated>2022-12-31T14:41:20.544Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt;</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+</feed>
